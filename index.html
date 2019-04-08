@@ -15,6 +15,7 @@
   <ons-page id="startpage">
     <ons-toolbar>
       <div class="center">Start page</div>
+      <div class="right"><ons-toolbar-button id="about">About</ons-toolbar-button></div>
     </ons-toolbar>
 
     <p>This is the first page.</p>
@@ -31,6 +32,17 @@
     </ons-toolbar>
 
     <p>This is the second page.</p>
+  </ons-page>
+</template>
+
+<template id="about.html">
+  <ons-page id="about">
+    <ons-toolbar>
+      <div class="left"><ons-back-button>Start page</ons-back-button></div>
+      <div class="center"></div>
+    </ons-toolbar>
+
+    <p>This is the about page.</p>
   </ons-page>
 </template>
 

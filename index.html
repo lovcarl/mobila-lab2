@@ -18,9 +18,46 @@
       <div class="right"><ons-toolbar-button id="about">About</ons-toolbar-button></div>
     </ons-toolbar>
 
-    <p>This is the first page.</p>
+    <ons-list>
+      <ons-list-header>Thumbnails and titles</ons-list-header>
+        <ons-list-item id="push-button1">
+          <div class="left">
+            <img class="list-item__thumbnail" src="https://placekitten.com/g/40/40">
+          </div>
+          <div class="center">
+            <span class="list-item__title">Cutest kitty 1</span><span class="list-item__subtitle">On the Internet</span>
+          </div>
+        </ons-list-item>
+        <ons-list-item id="push-button2">
+          <div class="left">
+            <img class="list-item__thumbnail" src="https://placekitten.com/g/40/40">
+          </div>
+          <div class="center">
+            <span class="list-item__title">Cutest kitty 2</span><span class="list-item__subtitle">On the Internet</span>
+          </div>
+        </ons-list-item>
+        <ons-list-item id="push-button3">
+          <div class="left">
+            <img class="list-item__thumbnail" src="https://placekitten.com/g/40/40">
+          </div>
+          <div class="center">
+            <span class="list-item__title">Cutest kitty 3</span><span class="list-item__subtitle">On the Internet</span>
+          </div>
+        </ons-list-item>
 
-    <ons-button id="push-button">Push page</ons-button>
+    </ons-list>
+
+  </ons-page>
+</template>
+
+<template id="page1.html">
+  <ons-page id="page1">
+    <ons-toolbar>
+      <div class="left"><ons-back-button>Start page</ons-back-button></div>
+      <div class="center"></div>
+    </ons-toolbar>
+
+    <p>kitty 1</p>
   </ons-page>
 </template>
 
@@ -31,7 +68,18 @@
       <div class="center"></div>
     </ons-toolbar>
 
-    <p>This is the second page.</p>
+    <p>kitty 2</p>
+  </ons-page>
+</template>
+
+<template id="page3.html">
+  <ons-page id="page3">
+    <ons-toolbar>
+      <div class="left"><ons-back-button>Start page</ons-back-button></div>
+      <div class="center"></div>
+    </ons-toolbar>
+
+    <p>kitty 3</p>
   </ons-page>
 </template>
 
@@ -42,7 +90,7 @@
       <div class="center"></div>
     </ons-toolbar>
 
-    <p>This is the about page.</p>
+    <p>We who have produced this amazing web-app are called Lovisa Carlberg and Vilma Ahlholm. And our group is called <h3>BB</h3>.</p>
   </ons-page>
 </template>
 

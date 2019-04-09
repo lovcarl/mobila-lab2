@@ -3,13 +3,13 @@ document.addEventListener('init', function(event) {
 
   if (page.id === 'startpage') {
     page.querySelector('#push-button1').onclick = function() {
-      document.querySelector('#myNavigator').pushPage('page1.html', {data: {title: 'Page 1'}});
+      document.querySelector('#myNavigator').pushPage('page1.html', {data: {title: 'Netflix'}});
     };
     page.querySelector('#push-button2').onclick = function() {
-      document.querySelector('#myNavigator').pushPage('page2.html', {data: {title: 'Page 2'}});
+      document.querySelector('#myNavigator').pushPage('page2.html', {data: {title: 'SvtPlay'}});
     };
     page.querySelector('#push-button3').onclick = function() {
-      document.querySelector('#myNavigator').pushPage('page3.html', {data: {title: 'Page 3'}});
+      document.querySelector('#myNavigator').pushPage('page3.html', {data: {title: 'HBO'}});
     };
     page.querySelector('#about').onclick = function() {
       document.querySelector('#myNavigator').pushPage('about.html', {data: {title: 'About'}});

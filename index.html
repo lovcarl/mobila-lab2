@@ -7,8 +7,8 @@
 
   <style>
     p {
-      text-align: center;
       padding: 5px;
+      font-size: 14pt;
     }
 
     .bb-center {
@@ -26,6 +26,19 @@
 
     .center-fit {
       text-align: center;
+      display: block;
+      margin: auto;
+      margin-left: 10%;
+      margin-right: 10%;
+
+    }
+
+    .page {
+      font-family: 'Lucida Grande', sans-serif;
+    }
+
+    .center {
+      font-size: 16pt;
     }
 
   </style>
@@ -39,8 +52,8 @@
 <template id="startpage.html">
   <ons-page id="startpage">
     <ons-toolbar>
-      <div class="center">Lab2 - task1</div>
-      <div class="right"><ons-toolbar-button id="about">About</ons-toolbar-button></div>
+      <div class="center" style="color: #DD33FF;">Lab2 - task1</div>
+      <div class="right"><ons-toolbar-button id="about" style="color: #DD33FF;">About</ons-toolbar-button></div>
     </ons-toolbar>
 
     <ons-list>
@@ -79,12 +92,10 @@
   <ons-page id="page1">
     <ons-toolbar>
       <div class="left"><ons-back-button>Start page</ons-back-button></div>
-      <div class="center"></div>
     </ons-toolbar>
-
-    <p>"Netflix and chill" is an Internet slang term used either as an invitation to watch Netflix together or as a euphemism for sexual activity, either as part of a romantic partnership or as casual sex or as a groupie invitation. 
-    - Wikipedia</p>
     <div class="center-fit">
+      <p style="color: #FF0000;">"Netflix and chill" is an Internet slang term used either as an invitation to watch Netflix together or as a euphemism for sexual activity, either as part of a romantic partnership or as casual sex or as a groupie invitation. 
+    - Wikipedia</p>
       <img class="size-fix" src="./Photos/chill.jpg"></img>
     </div>
   </ons-page>
@@ -94,11 +105,9 @@
   <ons-page id="page2">
     <ons-toolbar>
       <div class="left"><ons-back-button>Start page</ons-back-button></div>
-      <div class="center"></div>
     </ons-toolbar>
-
-    <p>Sätt dig i soffan, slå på svtPlay och ät sill.</p>
     <div class="center-fit">
+      <p style="color: #00FF">Sätt dig i soffan, slå på svtPlay och ät sill.</p>
       <img class="size-fix" src="./Photos/sill.jpg"></img>
     </div>
   </ons-page>
@@ -108,11 +117,9 @@
   <ons-page id="page3">
     <ons-toolbar>
       <div class="left"><ons-back-button>Start page</ons-back-button></div>
-      <div class="center"></div>
     </ons-toolbar>
-
-    <p>Har du hört om konceptet "räkna får"? Titta på HBO och räkna kills istället för får.</p>
     <div class="center-fit">
+      <p>Har du hört om konceptet "räkna får"? Titta på HBO och räkna kills istället för får.</p>
       <img class="size-fix" src="./Photos/kill.jpg"></img>
     </div>
   </ons-page>
@@ -122,13 +129,12 @@
   <ons-page id="about">
     <ons-toolbar>
       <div class="left"><ons-back-button>Start page</ons-back-button></div>
-      <div class="center"></div>
     </ons-toolbar>
 
-    <div class="center-fit">
-    <p>We who have produced this amazing web-app are called Lovisa Carlberg and Vilma Ahlholm. And our group is called <h3>BB</h3>.</p>
-      <img class="bb-center" src="./Photos/bb.jpg"></img>
-    </div>
+      <div class="center-fit">
+        <p style="font-size: 16pt; text-align: center;">We who have produced this amazing web-app are called Lovisa Carlberg and Vilma Ahlholm. And our group is called <h3 style="text-align:center; font-size: 20pt; color: #DD33FF;">BB.</h3></p>
+        <img class="bb-center" src="./Photos/bb.jpg"></img>
+      </div>
   </ons-page>
 </template>
 

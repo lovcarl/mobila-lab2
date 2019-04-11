@@ -10,6 +10,24 @@
       text-align: center;
       padding: 5px;
     }
+
+    .bb-center {
+      max-width: 30%;
+      max-height: 30%;
+      margin: auto;
+      display: block;
+    }
+
+    .size-fix {
+      margin: auto;
+      max-height: 50%;
+      max-width: 50%;
+    }
+
+    .center-fit {
+      text-align: center;
+    }
+
   </style>
 
 </head>
@@ -64,9 +82,11 @@
       <div class="center"></div>
     </ons-toolbar>
 
-    <h3></h3>
-    <p>"Netflix and chill" is an Internet slang term used either as an invitation to watch Netflix together or as a euphemism for sexual activity, either as part of a romantic partnership or as casual sex or as a groupie invitation.</p>
-    <img src="./Photos/chill.jpg" style="margin: auto; width: 70%;"></img>
+    <p>"Netflix and chill" is an Internet slang term used either as an invitation to watch Netflix together or as a euphemism for sexual activity, either as part of a romantic partnership or as casual sex or as a groupie invitation. 
+    - Wikipedia</p>
+    <div class="center-fit">
+      <img class="size-fix" src="./Photos/chill.jpg"></img>
+    </div>
   </ons-page>
 </template>
 
@@ -78,8 +98,9 @@
     </ons-toolbar>
 
     <p>Sätt dig i soffan, slå på svtPlay och ät sill.</p>
-    <img src="./Photos/sill.jpg" style="margin: auto; width: 80%;"></img>
-
+    <div class="center-fit">
+      <img class="size-fix" src="./Photos/sill.jpg"></img>
+    </div>
   </ons-page>
 </template>
 
@@ -91,8 +112,9 @@
     </ons-toolbar>
 
     <p>Har du hört om konceptet "räkna får"? Titta på HBO och räkna kills istället för får.</p>
-    <img src="./Photos/kill.jpg" style="margin: auto; width: 70%;"></img>
-
+    <div class="center-fit">
+      <img class="size-fix" src="./Photos/kill.jpg"></img>
+    </div>
   </ons-page>
 </template>
 
@@ -103,7 +125,10 @@
       <div class="center"></div>
     </ons-toolbar>
 
+    <div class="center-fit">
     <p>We who have produced this amazing web-app are called Lovisa Carlberg and Vilma Ahlholm. And our group is called <h3>BB</h3>.</p>
+      <img class="bb-center" src="./Photos/bb.jpg"></img>
+    </div>
   </ons-page>
 </template>
 
